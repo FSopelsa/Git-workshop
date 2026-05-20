@@ -10,7 +10,6 @@
 ####   Make your very first commit.  
 *    - git add README.md
         - *Stages the new file so Git will include it in the next commit.*
-
 *    - git commit -m "Initial commit"
         - *Records the staged change in the repository history with a message.*
 
@@ -22,10 +21,8 @@
 ####   Link it to your local repository.  
 *    - git remote add origin https://github.com/FSopelsa/Git-workshop.git
         - *Adds a new remote named origin that points to the GitHub repository URL.*
-
 *    - git branch -M main
         - *Renames the current branch to main, using -M to force the rename if a branch named main already exists.*
-
 *    - git push -u origin main
         - *Sends your local commits to GitHub and sets origin/main as the default upstream branch.*
 
@@ -37,10 +34,8 @@
 ####   Stage and commit changes, and **push** them to GitHub.
 *    - git add .
         - *Stages all changed files in the current folder for the next commit.*
-
 *    - git commit -m "Describe your change here"
         - *Creates a new commit of staged changes with a message.*
-    
 *    - git push -u origin main
         - *Uploads your local main branch commits to the origin remote on GitHub and sets origin/main as the upstream branch.*
 
@@ -54,4 +49,36 @@
 
 ### 4. Ignoring Files
 ####   Create a `.gitignore` file.
+*    - New-Item -Path .gitignore -ItemType File
+        - *Creates an empty .gitignore file in the current folder.*
+
 ####   Configure it to exclude unnecessary or sensitive files from being tracked.
+*    - Add-Content .gitignore "node_modules/"
+        - *Adds a rule that ignores the node_modules folder.*
+*    - Add-Content .gitignore "*.log"
+        - *Ignores all files with the .log extension.*
+*    - Add-Content .gitignore "secrets.txt"
+        - *Ignores a specific sensitive file named secrets.txt.*
+*    - Add-Content .gitignore ".env"
+        - *Ignores environment variable files like .env.*
+
+
+---
+
+
+## 🔄 Task 2: Clone, Rename, and Re-Publish
+
+### 1.  **Clone** this repository to your computer:
+    `https://github.com/Lexicon-Smaland/Hello-World.git`
+### 2.  **Change the remote connection** to point to your *own* GitHub account.
+### 3.  Make a small edit to any file.
+### 4.  **Commit and push** the updated version to your own GitHub repository.
+
+---
+
+## 🚀 Task 3: Advanced Challenges (Optional)
+
+*   **🌿 Branching and Merging:** Create a new branch, make changes, commit, and merge it back into the `main` branch.
+*   **🤝 Collaborating with Pull Requests:** Fork a classmate’s repository, make an improvement, and open a Pull Request (PR) to suggest your changes.
+*   **⏮️ Revert and Reset:** Experiment with reverting or resetting commits to undo or move between versions.
+*   **🏷️ Tagging and Releases:** Create and push tags to mark version releases of your project on GitHub.
