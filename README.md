@@ -1,14 +1,14 @@
-USed Git commands with explanations
+Used Git commands with explanations
 
 ## 🏗️ Task 1: The Basics
 
 ### 1. Initialize a New Repository
-*    Create a new local Git repository for your project. 
+*    Create a new local Git repository for your project.  
     - git init
         - *Creates a new local Git repository in the current folder.*
 
 *   Make your very first commit.  
-    - git add README.md
+    - >git add README.md
         - *Stages the new file so Git will include it in the next commit.*
 
     - git commit -m "Initial commit"
