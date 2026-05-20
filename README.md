@@ -70,7 +70,8 @@
 
 1.  **Clone** this repository to your computer:
     "https://github.com/Lexicon-Smaland/Hello-World.git"
-*   
+*   - **git clone https://github.com/Lexicon-Smaland/Hello-World.git**
+    **cd Hello-World**
 
 2.  **Change the remote connection** to point to your *own* GitHub account.
 *   
