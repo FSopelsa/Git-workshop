@@ -4,7 +4,7 @@
 
 ### 1. Initialize a New Repository
 ####   Create a new local Git repository for your project.  
-*    - git init
+*    - **git init**
         - *Creates a new local Git repository in the current folder.*
 
 ####   Make your very first commit.  
@@ -16,7 +16,7 @@
 
 ### 2. Connect to GitHub
 ####   Create a new repository on GitHub. 
-*    - ✅ = https://github.com/FSopelsa/Git-workshop.git 
+*     ✅ = https://github.com/FSopelsa/Git-workshop.git 
 
 ####   Link it to your local repository.  
 *    - git remote add origin https://github.com/FSopelsa/Git-workshop.git
@@ -29,7 +29,7 @@
 
 ### 3. Track Changes
 ####   Create and modify files.
-*    - ✅ = index.html, main.css
+*     ✅ = index.html, main.css
 
 ####   Stage and commit changes, and **push** them to GitHub.
 *    - git add .
@@ -44,7 +44,7 @@
         - *Creates a file named notes.txt and writes the text My notes into it. If the file already exists, it replaces its contents.*
 
 ####   Make several commits to practice **meaningful commit messages** and version tracking.
-*    - ✅
+*     ✅
 
 
 ### 4. Ignoring Files
