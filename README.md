@@ -70,18 +70,25 @@
 
 1.  **Clone** this repository to your computer: "https://github.com/Lexicon-Smaland/Hello-World.git"
     - **git clone https://github.com/Lexicon-Smaland/Hello-World.git**
+        - *Clones the repo and downloads its files locally.*
     - **cd Hello-World**
+        - *Changes directory to the 'Hello-World' folder - for future commands.*
 
 2.  **Change the remote connection** to point to your *own* GitHub account.
     - **git remote set-url origin https://github.com/FSopelsa/Hello-World.git**
+        - *Change remote connection so that updates can be pushed to my GitHub.*
 
 3.  Make a small edit to any file.
     - **echo "Small edit from my computer" >> README.md**
+        - *Adds a line of text at the end of README.md.*
     - **git add README.md**
+        - *Stages README.md and changes made, to include them in the next commit.*
 
 4.  **Commit and push** the updated version to your own GitHub repository.
     - **git commit -m "Make small edit"**
+        - *Creates a new commit including staged changes, with a message.*
     - **git push -u origin main**
+        - *Uploads local main branch commits to the origin remote on GitHub and sets origin/main as the upstream branch.*
    
 
 ---
