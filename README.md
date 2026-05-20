@@ -68,19 +68,21 @@
 
 ## 🔄 Task 2: Clone, Rename, and Re-Publish
 
-1.  **Clone** this repository to your computer:
-    "https://github.com/Lexicon-Smaland/Hello-World.git"
-*   - **git clone https://github.com/Lexicon-Smaland/Hello-World.git**
+1.  **Clone** this repository to your computer: "https://github.com/Lexicon-Smaland/Hello-World.git"
+    - **git clone https://github.com/Lexicon-Smaland/Hello-World.git**
     - **cd Hello-World**
 
 2.  **Change the remote connection** to point to your *own* GitHub account.
-    - test test
+    - **git remote set-url origin https://github.com/FSopelsa/Hello-World.git**
 
 3.  Make a small edit to any file.
-*   
+    - **echo "Small edit from my computer" >> README.md**
+    - **git add README.md**
 
 4.  **Commit and push** the updated version to your own GitHub repository.
-*   
+    - **git commit -m "Make small edit"**
+    - **git push -u origin main**
+   
 
 ---
 
