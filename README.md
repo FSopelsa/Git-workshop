@@ -4,7 +4,7 @@
 
 ### 1. Initialize a New Repository
 ####   Create a new local Git repository for your project.  
-*    - **git init**
+    - **git init**
         - *Creates a new local Git repository in the current folder.*
 
 ####   Make your very first commit.  
