@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Example</title>
+</head>
+<body>
+  <template id="card-template">
+    <article class="card">
+      <h2></h2>
+      <p></p>
+    </article>
+  </template>
+
+  <div id="cards"></div>
+
+  <script>
+    const template = document.getElementById('card-template');
+    const container = document.getElementById('cards');
+
+    const data = [
+      { title: 'First Item', description: 'This is the first card.' },
+      { title: 'Second Item', description: 'This is the second card.' }
+    ];
+
+    data.forEach(item => {
+      const clone = template.content.cloneNode(true);
+      clone.querySelector('h2').textContent = item.title;
+      clone.querySelector('p').textContent = item.description;
+      container.appendChild(clone);
+    });
+  </script>
+</body>
+</html>
