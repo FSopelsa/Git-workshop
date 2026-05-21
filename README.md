@@ -10,10 +10,9 @@
 ####   Make your very first commit.  
 *    `git add README.md`
         - *Stages the new file so Git will include it in the next commit.*
-     
+
 *    `git commit -m "Initial commit"`
         - *Records the staged change in the repository history with a message.*
-
 
 ### 2. Connect to GitHub
 ####   Create a new repository on GitHub. 
@@ -22,26 +21,24 @@
 ####   Link it to your local repository.  
 *    `git remote add origin https://github.com/FSopelsa/Git-workshop.git`
         - *Adds a new remote named origin that points to the GitHub repository URL.*
-     
+
 *    `git branch -M main`
         - *Renames the current branch to main, using -M to force the rename if a branch named main already exists.*
-     
+
 *    `git push -u origin main`
         - *Sends local commits to GitHub and sets origin/main as the default upstream branch.*
-
 
 ### 3. Track Changes
 ####   Create and modify files.
 *    **✅ -> index.html, main.css**
 
-
 ####   Stage and commit changes, and **push** them to GitHub.
 *    `git add .`
         - *Stages all changed files in the current folder for the next commit.*
-     
+
 *    `git commit -m "Describe your change here"`
         - *Creates a new commit of staged changes with a message.*
-     
+
 *    `git push -u origin main`
         - *Uploads the local main branch commits to the origin remote on GitHub and sets origin/main as the upstream branch.*
 
@@ -52,7 +49,6 @@
 ####   Make several commits to practice **meaningful commit messages** and version tracking.
 *    **✅**
 
-
 ### 4. Ignoring Files
 ####   Create a `.gitignore` file.
 *    `New-Item -Path .gitignore -ItemType File`
@@ -61,7 +57,7 @@
 ####   Configure it to exclude unnecessary or sensitive files from being tracked.
 *   `Add-Content .gitignore "node_modules/"`
     - *Adds a rule that ignores the node_modules folder.*
-    
+
 *    `Add-Content .gitignore "*.log"`
         - *Ignores all files with the .log extension.*
 
@@ -78,7 +74,6 @@
 ### 1.  **Clone** this repository to your computer: "https://github.com/Lexicon-Smaland/Hello-World.git"
 *    `git clone https://github.com/Lexicon-Smaland/Hello-World.git`
         - *Clones the repo and downloads its files locally.*
-
 *    `cd Hello-World`
         - *Changes directory to the 'Hello-World' folder - for future commands.*
 
@@ -86,17 +81,17 @@
 *    `git remote set-url origin https://github.com/FSopelsa/Hello-World.git`
         - *Change remote connection so that updates can be pushed to my GitHub.*
 
-### 3.  Make a small edit to any file.
+### 3.  **Make a small edit to any file.**
 *    `echo "Small edit from my computer" >> README.md`
         - *Adds a line of text at the end of README.md.*
-     
+
 *    `git add README.md`
         - *Stages README.md and changes made, to include them in the next commit.*
 
 ### 4.  **Commit and push** the updated version to your own GitHub repository.
 *    `git commit -m "Make small edit"`
         - *Creates a new commit including staged changes, with a message.*
-     
+
 *    `git push -u origin main`
         - *Uploads local main branch commits to the origin remote on GitHub and sets origin/main as the upstream branch.*
 
